@@ -165,7 +165,3 @@ abdom %>%
   geom_histogram(col = "black", fill = "blue", bins = 15) +
   xlab("y") +
   ylab("Frequência")
-
-moments::kurtosis(abdom$y)
-moments::skewness(abdom$y)
-?moments::kurtosis
